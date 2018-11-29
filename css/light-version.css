@@ -1,0 +1,696 @@
+/*
+* Author        : BionThemes
+* Author URL    : http://bionthemes.net
+* Template Name : BICARA - Car Shop HTML5 Template
+* Template Demo : http://bionthemes.net/bicara
+* File          : BICARA CSS file
+* Version       : 1.0
+
+------------------------
+NOTE:
+PLEASE DO NOT EDIT THIS CSS, IF YOU NEED USE "CUSTOM.CSS" FILE FOR WRITING YOUR CUSTOM CSS.
+I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CUSTOM.CSS".
+------------------------
+
+Table of Contents
+	01.Menu
+	02.Top Header
+	03.Heading
+	04.Button
+	05.from
+	06.Hover Image
+	07.Owl slider
+	08.Service
+	09.Blog
+	10.Blog date
+	11.Share-post
+	12.List-comment
+	13.Category
+	14.Product
+	15. Mfp-popup
+	16.Panel
+	17.List-default
+	18.Block-fv
+	19.Logo brand
+	20.Newsletter
+	21.Ht-tabs
+	22.Ht-pagination
+	23.Ht-breadcrumbs
+	24.Rating
+	25.Error_404
+	26.Preloader
+	27.Footer
+	28.Color
+-------------------*/
+
+* {
+    color: #333;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: #333;
+}
+
+hr {
+    border-color: #eee;
+}
+
+p {
+    color: #555;
+}
+
+#wrap-body,
+.wrap-body-inner {
+    background: #fff;
+}
+
+.color-inher {
+    color: #fff;
+}
+
+
+/*--- 01.Menu ---*/
+
+.navbar-default .navbar-nav li ul {
+    background: #fafafa;
+}
+
+.navbar-default .navbar-nav li ul li {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar-default .navbar-nav li ul li a {
+    color: #555;
+}
+
+
+/*--- 02.Top Header ---*/
+
+.top-header ul li a {
+    color: #fff;
+}
+
+.top-header ul li.cart-icon ul.cart-dropdown li .product-item {
+    border-bottom: 1px solid #eee;
+}
+
+.top-header ul li.cart-icon ul.cart-dropdown li .product-item p,
+.top-header ul li.cart-icon ul.cart-dropdown li .remove-cart-item {
+    color: #999;
+}
+
+.top-header ul li.cart-icon ul.cart-dropdown li .product-item h4 a,
+.top-header ul li.cart-icon ul.cart-dropdown li .ht-btn,
+.top-header ul li.cart-icon ul.cart-dropdown li div {
+    color: #333;
+}
+
+.top-header ul li.cart-icon ul.cart-dropdown li .product-item p strong,
+.top-header ul li .cart-dropdown li .price {
+    color: #d11717;
+}
+
+.top-header ul li.cart-icon ul.cart-dropdown li .product-item .product-img,
+.top-header ul li.cart-icon ul.cart-dropdown li .remove-cart-item {
+    background: #eee;
+}
+
+.top-header ul li.cart-icon ul.cart-dropdown li .ht-btn {
+    background: #eee;
+}
+
+.top-header ul li.cart-icon ul.cart-dropdown li .ht-btn:hover {
+    background: #d11717;
+    color: #fff;
+}
+
+
+/*--- 03.Heading ---*/
+
+.heading {
+    background: #f5f5f5;
+}
+
+.heading h3 {
+    background: #fff;
+}
+
+.heading h3::after {
+    border-left-color: #fff;
+    border-bottom-color: #fff;
+}
+
+.heading-1 {
+    border-bottom: 2px solid #eee;
+}
+
+.heading-1 h3,
+.heading-1 h4 {
+    border-bottom: 2px solid #ccc;
+}
+
+.heading-1 i {
+    color: #999;
+}
+
+
+/*--- 04.Button ---*/
+
+.ht-btn-default:hover {
+    background: #bd1616;
+    color: #fff;
+}
+
+
+/*--- 05.Form ---*/
+
+.form-item:hover,
+.form-item:focus,
+.form-item:active {
+    box-shadow: none;
+    color: #555;
+    background: #fff;
+    border: 1px solid #eee;
+}
+
+.checkbox {
+    color: #555;
+}
+
+.checkbox input[type=checkbox]+label {
+    color: #ddd;
+    background-color: #ddd;
+}
+
+.checkbox input[type="checkbox"]:checked+label {
+    color: #888;
+}
+
+.list-feature li i {
+    background: #ddd;
+    color: #888;
+}
+
+.search-2,
+.banner-bg-8 {
+    border: 15px solid #f5f5f5;
+}
+
+.search-2 {
+    border-top: 0px;
+}
+
+.banner-bg-8 {
+    border-bottom: 0px;
+}
+
+
+/*--- 06.Hover image ---*/
+
+.absolute-caption {
+    left: 12px;
+    top: -60px;
+}
+
+.hover-img:hover .absolute-caption {
+    left: 12px;
+    top: 12px;
+}
+
+.absolute-caption li {
+    background: #fafafa;
+    border-bottom: 1px solid #ddd;
+}
+
+.absolute-caption li span,
+.absolute-caption li i {
+    color: #555;
+}
+
+.absolute-caption li i {
+    background: #eee;
+}
+
+.static-caption li {
+    float: left;
+    padding: 7px 12px;
+    margin-right: 1px;
+    background: #e5e5e5;
+    color: #444;
+}
+
+.static-caption li i {
+    margin-right: 5px;
+    color: #888;
+}
+
+.slide {
+    border: 15px solid #f5f5f5;
+    border-bottom: 0px;
+}
+
+.list-feature li {
+    color: #555;
+}
+
+.select-wrapper::after {
+    color: #ccc;
+}
+
+.select-wrapper select {
+    border: 1px solid #eee;
+}
+
+
+/*--- 07.Owl slider ---*/
+
+.owl-theme .owl-controls .owl-buttons .owl-prev,
+.owl-theme .owl-controls .owl-buttons .owl-next {
+    color: #999;
+    background: #eee;
+}
+
+.owl-theme .owl-controls .owl-buttons div:hover {
+    background: #d11717;
+    color: #fff;
+}
+
+
+/*--- 08.Service ---*/
+
+.list-service {
+    background: #f5f5f5;
+}
+
+.list-service ul li {
+    background: #fafafa;
+}
+
+.list-service ul li a {
+    background: #eee;
+    color: #333;
+}
+
+.list-service ul li a::after {
+    border-top-color: #fafafa;
+    border-right-color: #fafafa;
+}
+
+
+/*--- 09.Blog ---*/
+
+.blog-item {
+    background: #f5f5f5;
+}
+
+.blog-item .blog-caption .blog-heading {
+    color: #333;
+}
+
+.blog-item .blog-caption .blog-heading a:hover {
+    color: #d11717;
+}
+
+.blog-item p {
+    color: #555;
+}
+
+
+/*--- 10.Blog date ---*/
+
+.blog-date li a {
+    border-right-color: #ccc;
+    color: #555;
+}
+
+.blog-date li a i {
+    color: inherit;
+}
+
+
+/*--- 11.Share-post ---*/
+
+.share-post {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.share-post ul li a {
+    color: #999;
+}
+
+.share-post ul li a:hover {
+    color: #d11717;
+}
+
+
+/*--- 12.List-comment ---*/
+
+.list-comment .comment-item .comment-img {
+    border: 5px solid #eee;
+}
+
+.list-comment .comment-item .comment-txt p,
+.list-comment .comment-item .comment-txt .reply,
+.list-comment .more-comment,
+.list-comment .comment-item span {
+    color: #999;
+}
+
+.list-comment .more-comment,
+.list-comment .comment-item .comment-txt {
+    background: #fff;
+    border-color: #f5f5f5;
+}
+
+.list-comment .comment-item .comment-txt .comment-item .comment-txt {
+    background: #f5f5f5;
+}
+
+.list-comment .comment-item .comment-txt::after,
+.list-comment .comment-item .comment-txt::before {
+    border-bottom-color: #fff;
+}
+
+.list-comment .comment-item .comment-txt .comment-item .comment-txt::after {
+    border-bottom-color: #f5f5f5;
+}
+
+.list-comment .comment-item .comment-heading h5 {
+    text-transform: capitalize;
+    color: #555;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+
+
+/*--- 13.Product_category ---*/
+
+.category .heading,
+.heading-2 {
+    background: #fff;
+}
+
+.category .heading h3::after,
+.heading-2 h3::after {
+    border-left-color: #f5f5f5;
+    border-bottom-color: #f5f5f5;
+}
+
+.category .heading h3,
+.product>.heading-2 h3,
+.category ul li a {
+    background: #f5f5f5;
+    color: #333;
+    border-left-color: #eee;
+}
+
+.category ul li.active a,
+.category ul li a:hover,
+.category ul li.active a i,
+.category ul li a:hover i {
+    background: #d11717;
+    color: #fff;
+}
+
+.category ul li a i {
+    color: #ccc;
+}
+
+
+/*--- 14.Product ---*/
+
+.product-item {
+    background: #fafafa;
+    border: 10px solid #f5f5f5;
+}
+
+.product-item .product-caption .product-name a:hover {
+    color: #d11717;
+}
+
+.product-list .product-item {
+    padding: 15px;
+    background: #f5f5f5;
+}
+
+.product-item .product-caption .product-name {
+    color: #333;
+}
+
+.product-item .product-caption .product-price {
+    color: #d11717;
+}
+
+.product-item .product-caption .product-txt {
+    color: #999;
+}
+
+.product-grid-2 .product-item {
+    padding: 12px;
+    background: #f5f5f5;
+    border: none;
+}
+
+.product-grid-2 .product-item .product-caption .product-name {
+    background: #fff;
+    color: #777;
+}
+
+.product-grid-2 .product-item .product-caption .product-name span::after {
+    border-top-color: #fff;
+    border-left-color: #fff;
+    border-right-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.product-grid-2 .product-item .product-caption .product-name a b {
+    color: #eaa335;
+}
+
+.product-grid-2 .product-caption .product-name span {
+    background: #d11717;
+    color: #fff;
+}
+
+.product-filter {
+    background: #f5f5f5;
+}
+
+.product-filter a {
+    color: #333;
+}
+
+.product-filter a.active i,
+.filter a i:hover {
+    background: #ddd;
+    color: #666;
+}
+
+.cart-img-prev {
+    background: #f5f5f5;
+    border: 1px solid #eee;
+}
+
+.bor-r {
+    border-right: 1px solid #eee;
+}
+
+.product-filter select {
+    border-color: #eee;
+    background: #fff;
+}
+
+.product_detail {}
+
+.product_para .review-link {
+    color: #999;
+}
+
+.product_para .review-link i {
+    color: inherit;
+}
+
+.product_para-1 li {
+    background: #fff;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.product_para-1 li span {
+    color: #777;
+}
+
+.cart-item,
+.cart-total {
+    background: #fafafa;
+    border: 1px solid #eee;
+}
+
+.cart-item .form-item {
+    border-color: #f5f5f5;
+}
+
+.cart-item .product-name span {
+    color: #d11717;
+}
+
+
+/*--- 15.Mfp-popup ---*/
+
+img.mfp-img {
+    background: #f5f5f5;
+}
+
+
+/*--- 16.Panel ---*/
+
+.panel-group {}
+
+.panel-group p {
+    color: #777;
+}
+
+.panel-body,
+.panel-default>.heading-1 {
+    border-bottom: 2px solid #eee;
+    margin-bottom: 0px;
+}
+
+.panel-default>.heading-1 h4 {
+    border-bottom: 2px solid #ccc;
+    color: #333;
+    font-size: 18px;
+}
+
+
+/*--- 17.List-default ---*/
+
+.list-default li {
+    color: #333;
+    border-bottom-color: #ccc;
+}
+
+.list-default li a {
+    color: inherit;
+}
+
+.list-default li i.icon {
+    background: #eee;
+    color: #555;
+}
+
+
+/*--- 20.Newsletter ---*/
+
+.newsletter .form-item {
+    border: none;
+}
+
+
+/*--- 21.Ht-tabs ---*/
+
+.ht-tabs li a,
+.ht-tabs li a:hover,
+.ht-tabs li a:focus,
+.ht-tabs li a:active {
+    background: #f5f5f5;
+    color: #555;
+}
+
+.bord-10 {
+    border: 10px solid #f5f5f5;
+}
+
+
+/*--- 22.Ht-pagination ---*/
+
+ul.ht-pagination li a {
+    background: #eee;
+    color: #333;
+}
+
+ul.ht-pagination li.active a,
+ul.ht-pagination li.active a:hover,
+ul.ht-pagination li a:hover,
+ul.ht-pagination li a:focus,
+ul.ht-pagination li a:active,
+ul.ht-pagination li a:hover span i {
+    background: #d11717;
+    color: #fff;
+}
+
+
+/*--- 23.Ht-breadcrumbs ---*/
+
+.ht-breadcrumb li {
+    background: #eee;
+    color: #333;
+}
+
+.ht-breadcrumb li::after {
+    border-left-color: #eee;
+}
+
+.ht-breadcrumb li::before {
+    border-left-color: #fff;
+}
+
+.ht-breadcrumb li:last-child,
+.ht-breadcrumb li:hover {
+    background: #f5f5f5;
+}
+
+.ht-breadcrumb li:last-child::after,
+.ht-breadcrumb li:hover::after {
+    border-left-color: #f5f5f5;
+}
+
+.ht-breadcrumb li a {
+    color: #333;
+}
+
+
+/*--- 24.Rating ---*/
+
+ul.rating>li i {
+    color: #ccc;
+}
+
+ul.rating>li.active i,
+ul.rating>li i:hover {
+    color: #ffcc00;
+}
+
+
+/*--- 25.Error_404 --*/
+
+.error404 {
+    background: #fff;
+}
+
+.error_404 a {
+    color: #d11717;
+}
+
+
+/*--- 26.Preloader --*/
+
+.preloader {
+    background: #fff;
+}
+
+
+/*--- 27.Footer ---*/
+
+.imgc {
+    border-top: 20px solid #fff;
+    border-right: 20px solid #fff;
+}
+
+@media (max-width: 767px) {
+    .search-1 {
+        background: #fff;
+    }
+}

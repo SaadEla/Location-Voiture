@@ -1,0 +1,96 @@
+/*
+* Author        : BionThemes
+* Author URL    : http://bionthemes.net
+* Template Name : BICARA - Car Shop HTML5 Template
+* Template Demo : http://bionthemes.net/bicara
+* File          : BICARA CSS file
+* Version       : 1.0
+
+------------------------
+NOTE:
+PLEASE DO NOT EDIT THIS CSS, IF YOU NEED USE "CUSTOM.CSS" FILE FOR WRITING YOUR CUSTOM CSS.
+I WILL RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE IT'S BETTER USE "CUSTOM.CSS".
+Table of Contents
+---------------------
+*/
+
+#wrap-body {
+    background: none !important;
+    padding-top: 0px !important;
+}
+
+.wrap-body-inner {
+    width: 100% !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-top: 30px !important;
+    float: left !important;
+}
+
+.m-t-lg-s300 {
+    margin: 0px !important;
+}
+
+.height-500 {
+    height: 0px !important;
+}
+
+#wrap-footer,
+.block-logo,
+.block-fv,
+.footer-bt {
+    background: none !important;
+}
+
+.ht-breadcrumb {
+    margin-top: 5px !important;
+}
+
+.block-fv .procs {
+    padding: 30px 30px 0px 30px;
+}
+
+.m-30 {
+    margin: -30px !important;
+}
+
+.footer-top .p-l-r,
+.footer-bt .p-l-r {
+    padding: 0px 30px !important;
+}
+
+.menu-bg {
+    margin-bottom: 30px;
+}
+
+.h-box-auto {
+    height: auto !important;
+}
+
+.slide,
+.srarc {
+    border: 0px;
+}
+
+.m-ab {
+    margin-top: -52px;
+}
+
+.m-box-auto {
+    margin: auto !important;
+}
+
+.m-d-t-60 {
+    margin-top: 60px;
+}
+
+.search-2,
+.banner-bg-8 {
+    border: none;
+}
+
+@media (max-width: 767px) {
+    .wrap-body-inner {
+        padding: 15px !important;
+    }
+}
